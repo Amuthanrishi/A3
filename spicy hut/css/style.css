@@ -1,0 +1,117 @@
+.body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing{
+    background-image: url('../images/1d.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffc54d;
+    
+}
+
+header{
+    display: flex;
+    padding: 2em;
+    
+}
+
+#logo{
+    display: flex;
+    flex: 3;
+    font-size: 2.90em;
+    
+    
+    
+}
+
+.logo{
+    animation: color-change 20ms infinite alternate;
+    
+}
+
+
+@keyframes color-change
+ {
+    10% {
+        color: blue;
+    }
+    40%{
+        color: #ffc54d;
+    }
+    15%{
+        color:chocolate;
+    }
+
+    70%{
+        color: darkcyan;
+    }
+
+}
+
+
+
+
+
+nav{
+    flex: 1;
+    display: flex;
+    
+}
+
+nav a{
+    flex: 1;
+    font-size: 1.35em;
+}
+
+nav a:hover{
+    color:blueviolet;
+    
+    
+}
+
+.Maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+
+}
+
+.tagline1{
+    color:red;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.tagline2{
+    color:yellow;
+    font-size: 1.3em;
+}
+
+.Maintext div{
+    margin-top: 1em;
+}
+
+.Maintext button{
+    width: 95px;
+    height: 32px;
+    border-radius: 15px;
+    margin-top: 1.2em;
+    font-weight: bolder;
+    color: white;
+    background-color:yellowgreen;
+    
+
+
+}
+
+
